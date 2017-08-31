@@ -1,0 +1,96 @@
+/*Code by ZHJ/ZenLiver*/
+/*灵猫*/
+
+/*产品列表页独有样式*/
+
+@media (max-width: 767px) {
+    #el_14694158501951c3e2 {
+        padding-top: 10px;
+    }
+}
+
+/*面包屑导航*/
+#app_1033916944045418 {
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    padding-left: 20px;
+}
+/*商品筛选*/
+#app_0958057991080652 {
+    padding: 0 30px 10px 30px;
+    background-color: #fff;
+}
+
+#app_0958057991080652 .goods_screen_content {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+@media (max-width: 767px) {
+    .goods_screen_1_row .left {
+        float: none !important;
+        width: 100% !important;
+        padding-left: 10px !important;
+        border-bottom: 1px solid #eee;
+    }
+
+    .goods_screen_1_row .right {
+        margin-left: 0 !important;
+        border-left: none !important;
+    }
+
+    .goods_screen_1_row {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #app_0958057991080652 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.goods_screen_1_row .right a.selected {
+    background-color: #ff6600 !important;
+    color: #fff !important;
+}
+
+.goods_screen_row .right a:hover {
+    background-color: #ff6600 !important;
+}
+
+.goods_screen_row .right a {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#app_9318886204433731 {
+    margin-top: 20px;
+}
+
+.goods_list_bar.goods_list_1_bar {
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+
+/*分页*/
+#app_9318886204433731 .goods_list .selectPage {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#app_9318886204433731 .goods_list .selectPage a {
+    background-color: #fff;
+}
+
+#el_1469415850195vfk21 {
+    padding-bottom: 20px;
+}

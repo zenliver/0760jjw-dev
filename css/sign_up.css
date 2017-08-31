@@ -1,0 +1,85 @@
+/*Code by ZHJ/ZenLiver*/
+/*灵猫*/
+
+/*注册页面独有样式*/
+
+#el_146942682451065st1 {
+    background-color: #fff;
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media (min-width: 1200px) {
+    #el_146942682451065st1 {
+        padding-left: 25%;
+        padding-right: 25%;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 961px) and (max-width: 1199px) {
+    #el_146942682451065st1 {
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 960px) {
+    #el_146942682451065st1 {
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 767px) {
+    #el_146942682451065st1 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+    }
+    #el_14669229230040tby5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+#app_9061452884414408 {
+    border: none;
+}
+
+#app_9061452884414408 .con_header {
+    padding-left: 0;
+    border-bottom: 1px solid #eee;
+}
+#app_9061452884414408 .user_item {
+    padding-right: 10px;
+}
+#mainWrapper {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+input.textInput.inputBlock {
+    border: none;
+}
+.user_signup {
+    border: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.user_signup .con_header {
+    text-align: center;
+}
+
+.user_signup .con_body {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+@media (max-width: 767px) {
+    .user_signup .con_body {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+    }
+}
+.user_1_item .inputBox {
+    margin-right: 120px !important;
+}

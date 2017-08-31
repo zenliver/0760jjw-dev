@@ -1,0 +1,121 @@
+/*Code by ZHJ/ZenLiver*/
+/*灵猫*/
+
+/*产品详情页独有样式*/
+
+#main {
+    padding-bottom: 20px;
+}
+#mainContainer {
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*面包屑导航*/
+#app_2472678646932637 {
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#el_1469436179476ka511 {
+    border-top: none;
+    padding-top: 20px;
+}
+/*pad横屏和PC下独有*/
+@media (min-width: 961px) {
+    #el_1469436179477207u2>.rowPatch>.span9 {
+        float: right;
+    }
+
+    .goods_detail_1_top.goods_detail_top {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #el_1469436179477207u2 {
+        position: relative;
+    }
+
+    .goods_detail_1_wareDetails.goods_detail_wareDetails {
+        margin-top: 460px;
+    }
+
+    #app_1918908555645743 {
+        margin-top: 480px;
+    }
+    .goods_detail_1_top_info {
+        padding-left: 50px !important;
+    }
+}
+@media (min-width: 1200px) {
+    .goods_detail_1_wareDetails.goods_detail_wareDetails {
+        margin-top: 570px;
+    }
+
+    #app_1918908555645743 {
+        margin-top: 590px;
+    }
+}
+
+#app_1918908555645743 {
+    border: 1px solid #eee;
+}
+
+#app_1918908555645743 .goods_list .con_body {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#app_1918908555645743 .goods_list .con_header {
+    padding-left: 15px;
+}
+.goods_wareDetail_title a {
+    height: 45px !important;
+    line-height: 45px !important;
+}
+.goods_detail_promoPrice {
+    color: #ff6700;
+}
+.goods_stockBtn.minus {
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.goods_stockBtn.plus {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+/*商品属性区域*/
+.goods_wareDetail_1_option {
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+    margin-left: 0 !important;
+}
+
+.goods_wareDetail_1_option li {
+    width: 50% !important;
+}
+
+@media (max-width: 767px) {
+    .goods_detail_1_optionsChose ul li {
+        display: inline-block !important;
+    }
+    .goods_detail_1_wareDetails.goods_detail_wareDetails {
+        margin-top: 30px;
+    }
+    #mainWrapper {
+        padding-top: 10px;
+    }
+    #app_1918908555645743 .goods_list .con_header {
+        margin-bottom: 20px;
+    }
+}

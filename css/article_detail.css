@@ -1,0 +1,80 @@
+/*Code by ZHJ/ZenLiver*/
+/*灵猫*/
+
+/*内容详情页独有样式*/
+
+#main {
+    padding-bottom: 20px;
+}
+#el_14931094261458gtc2 {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+#el_1493109426144r3kg1>.appWrapper {
+    border: 1px solid #eee;
+    margin-top: 30px;
+}
+
+#el_1493109426144r3kg1>.appWrapper .con_header {
+    border-bottom: 1px solid #eee;
+    padding-left: 15px;
+    background-color: #eee;
+}
+
+#el_1493109426144r3kg1>.appWrapper .con_body {
+    padding-left: 15px;
+}
+#el_1493109426144r3kg1>.appWrapper .con_body .article_list_list.article_list_1_list {
+    border-bottom: none;
+}
+
+@media (max-width: 767px) {
+    #el_14931094261458gtc2>.rowPatch>.span3 {
+        display: none;
+    }
+}
+h3.article_detail_title.article_detail_1_title {
+    text-align: center !important;
+    font-size: 18px !important;
+}
+
+#el_1493109439028iye34 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+@media (max-width: 767px) {
+    #el_1493109439028iye34 {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #el_14931094261458gtc2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 960px) {
+    #el_1493109439028iye34 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (min-width: 961px) and (max-width: 1199px) {
+    #el_1493109439028iye34 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/*文章内容*/
+.article_detail_content p {
+    line-height: 2em;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,75 @@
+/*Code by ZHJ/ZenLiver*/
+/*灵猫*/
+
+/*首页独有样式*/
+
+#main {
+    padding-bottom: 20px;
+}
+#mainContainer>.row {
+    margin-top: 20px;
+}
+/*焦点图*/
+#app_9455340518020385 {
+    margin-top: 0;
+}
+.pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+}
+.swiper-pagination-bullet-active {
+    background-color: #ff6700 !important;
+}
+
+
+#el_1469501254433qj8t43, #el_14695013082953fo246, #el_1469501384762cs1n59, #el_1469501543486y8lm85,#el_1469501443345j48072 {
+    display: none;
+}
+
+#app_0785215440461158 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    #el_1469437654611ib4h6 {
+        margin-top: 10px !important;
+    }
+
+    #app_0785215440461158 {
+        margin-bottom: 20px;
+    }
+}
+
+.goods_list .goods_list_bar.goods_list_1_bar {
+    padding: 10px;
+    background-color: #fff;
+}
+.goods_list_info .title {
+    line-height: 24px;
+    height: 48px;
+}
+.goods_list_pricebox.goods_list_1_pricebox span.price.sC.h4 {
+    color: #ff6700;
+    font-size: 18px;
+}
+
+#main .goods_category a.goods_category_list.inline {
+    font-size: 20px;
+    color: #333;
+    padding-left: 10px;
+    border-left: 3px solid #333;
+    margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+    #main .goods_category a.goods_category_list.inline {
+        padding: 2px 20px;
+        border: 1px solid #666;
+    }
+
+    #main .goods_category .appColumn {
+        width: 100%;
+        text-align: center;
+    }
+}
